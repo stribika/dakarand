@@ -1,0 +1,11 @@
+Initial release.  Run "sh build.sh" to build scrypt and compile dakarand
+against it.
+
+Code's fairly intentionally being left difficult to integrate into production,
+i.e. use of globals, dependencies on both scrypt and openssl, etc.
+I'll make a cleaner version after this thing has been put through its paces
+(seriously, the approach is not supposed to work).
+
+--Dan
+14-Aug-2012
+

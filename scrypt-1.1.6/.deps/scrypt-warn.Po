@@ -1,0 +1,5 @@
+scrypt-warn.o: lib/util/warn.c scrypt_platform.h config.h
+
+scrypt_platform.h:
+
+config.h:
