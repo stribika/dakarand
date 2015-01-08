@@ -1,3 +1,7 @@
+#!/bin/sh
+
+set -o errexit
+
 cd scrypt-1.1.6
 ./configure; make
 cd ..
